@@ -1,0 +1,56 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background: hsl(229, 60%, 89%);
+}
+
+.container {
+    position: relative;
+    background: white;
+    width: 255px;
+    height: 420px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.qr-image {
+    position: absolute;
+    width: 250px;
+    right: 6%;
+    left: 5%;
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p1 {
+    position: absolute;
+    bottom: 20%;
+    font-size: larger;
+    font-weight: 700;
+    width: 250px;
+}
+
+.p2 {
+    position: absolute;
+    bottom: 7%;
+    right: 15%;
+    font-size: 13px;
+    width: 200px;
+}
